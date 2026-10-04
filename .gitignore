@@ -1,0 +1,43 @@
+# https://dart.dev/guides/libraries/private-files
+# Created by `dart pub`
+.dart_tool/
+service-account.json
+google-services.json
+
+# Flutter/Dart gerados
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Android gerados e locais
+android/app/debug
+android/app/profile
+android/app/release
+android/.gradle
+android/captures/
+android/local.properties
+
+# iOS gerados
+ios/Runner/Assets.xcassets/AppIcon.appiconset/
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+**/Pods/
+**/Frameworks/
+**/build/
+
+# Configurações de IDEs locais
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Variáveis de ambiente e segredos
+.env
